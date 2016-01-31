@@ -1,18 +1,20 @@
 /* --------------------------------------------------------------
-   TAKEN FROM BLUEPRINT CSS - THANKS!
+   (mostly) TAKEN FROM BLUEPRINT CSS - THANKS!
    typography.css
    * Sets up some sensible default typography.
 
 -------------------------------------------------------------- */
 
-/* Default font settings.
-   The font-size percentage is of 16px. (0.75 * 16px = 12px) */
-html { font-size:100.01%; }
+@font-face {
+  font-family: "OpenSans Light";
+  src: url(../fonts/OpenSans-Light.ttf);
+}
+
 body {
-  font-size: 75%;
+  font-size: 16px;
   color: #222;
   background: #fff;
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: "OpenSans Light", sans-serif;
 }
 
 
